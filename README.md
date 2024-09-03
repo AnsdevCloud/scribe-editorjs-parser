@@ -82,8 +82,8 @@ You can extend or customize the rendering of specific block types by creating yo
 ```jsx
 import SpotifyPlayer from 'scribe-editorjs-parser/SpotifyPlayer';
 
-const CustomSpotifyPlayer = ({ trackUrl }) => {
-  return <SpotifyPlayer src={trackUrl} artistName="Ansdev Cloud" trackTitle="Scribe Theme" />;
+const CustomScribePlayer = ({ trackUrl }) => {
+  return <ScribePlayer src={trackUrl} artistName="Ansdev Cloud" trackTitle="Scribe Theme" />;
 };
 ```
 

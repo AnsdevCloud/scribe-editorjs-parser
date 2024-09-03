@@ -80,7 +80,7 @@ export default MyComponent;
 You can extend or customize the rendering of specific block types by creating your custom components. For example, here’s how you can integrate a Spotify player component:
 
 ```jsx
-import SpotifyPlayer from 'scribe-editorjs-parser/SpotifyPlayer';
+import ScribePlayer from 'scribe-editorjs-parser/hooks/ScribePlayer';
 
 const CustomScribePlayer = ({ trackUrl }) => {
   return <ScribePlayer src={trackUrl} artistName="Ansdev Cloud" trackTitle="Scribe Theme" />;
